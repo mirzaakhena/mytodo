@@ -1,4 +1,4 @@
-# Demo3
+# MyTodo
 
 This Application created with gogen cli tools with several command : 
 
@@ -33,9 +33,9 @@ gogen application mytodo
 2. paste it into new file with name `config.json`
 3. open first terminal run `go mod tidy` to download the go dependency 
 4. still in first terminal, run the backend apps with command `go run main.go mytodo`
-5. open second terminal then change directory `cd web/` 
-6. in second terminal run `npm install`
-7. still in second terminal run `npm run dev`
+5. open second terminal then change directory to web folder `cd web/` 
+6. in second terminal run `npm install` to download the vue dependency
+7. still in second terminal run the frontend apps with command `npm run dev`
 8. open `http://127.0.0.1:5173/web/` in browser
 
 This application by default run with database sqlite. 
